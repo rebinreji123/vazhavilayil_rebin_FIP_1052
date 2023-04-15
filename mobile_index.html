@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Web Page</title>
+<link href="styles/mobile_styles.css" rel="stylesheet" type="text/css">
+
+
+</head>
+<!-- students must convert divs to semantic tags -->
+<body>
+	<div id="container">
+        
+        <header id="header-con">
+            <div id="main-header" class="grid-con">
+                <img src="assets/RLREADERS LIBRARY.png" alt="image" id="header-logo">
+                <nav id="mobile-nav">
+                    <span class="burger"></span>
+                    <span class="burger"></span>
+                    <span class="burger"></span>
+                    <div class="dropdown-menu">
+                      <a href="#">Kids Books</a>
+                      <a href="#">fiction</a>
+                      <a href="#">non-fiction</a>
+                      <a href="#">About us</a>
+                      <a href="#">Contact Us</a>
+                    </div>
+                </nav>
+                  
+            </div>    
+        </header> 
+
+        <main>
+            <section id="hero-con"> <img class="header-image" src="images/cover1_mobile.png" alt="header image">
+               
+                <div class="grid-con">
+                    <div id="hero-text" class="box-color">
+                    </div>
+                </div>
+            </section> 
+
+            <div id="image-slider-con">
+                <h2>Our collections</h2>
+                <img id="slider-image" src="images/kids_books.jpg" alt="image">
+                <!-- ascii symbols for <> -->
+                <span id="mobile-slider-left">&#60</span>
+                <span id="mobile-slider-right">&#62</span>
+                <h1 id="slider-text">Kids Books</h1>
+                <button type="buy now">Buy Now </button>
+            </div>
+
+            <div id="about-us-con">
+                <h2> Images and Services </h2>   
+                    <article id="about-us-text-con">     
+                        <div class="grid-con">
+                            <section id="about-us-text" class="box-color">
+                                <h1 id="aboutus-info-heading">Services provided by our library.</h1>
+                                <p id="aboutus-para">Borrowing materials: Libraries offer books, magazines, CDs, DVDs, and other materials that users can borrow for a set period of time. Reference and research assistance: Librarians are available to help users find information on a wide range of topics and to provide research assistance.</p> 
+                                <p id="aboutus-para"> Computer and internet access: Many libraries offer computer and internet access to their users, which is particularly important for those who do not have access to these resources at home.
+
+                                    Programs and events: Libraries often host programs and events such as book clubs, author talks, storytimes, and workshops on a variety of topics.
+                                    
+                                    Interlibrary loan: Libraries can borrow materials from other libraries on behalf of their users, expanding the range of materials available to them.</p>
+                            </section>
+                        </div>      
+                    </article>  
+                    <section class="grid-con" id="about-us-photos">
+                        <img src="images/library image 3.png" alt="image" class="about-us-photo">
+                        <img src="images/library image.png" alt="image" class="about-us-photo">
+                        <img src="images/library images2.png" alt="image" class="about-us-photo">
+                        <img src="images/library images4.png" alt="image" class="about-us-photo">
+                    </section>         
+            </div>
+
+            <section id="contact-us-con">
+                <article class="grid-con">
+                    <section id="contact-text" class="box-color">
+                        <h1 id="contact-form-text-heading">contact us</h1>
+                    </section>
+                    <form id="contact-form" class="box-color">
+                        <form action="#" method="post">
+                            <label for="Firstname">First Name:</label>
+                            <input type="text" id="full-name" name="full-name" required>
+                    
+                            <label for="lastname">Last Name:</label>
+                            <input type="text" id="full-name" name="Last-name" required>
+                    
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                    
+                            <label for="comments">Comments:</label>
+                            <textarea id="comments" name="comments"></textarea>
+                    
+                            <button type="submit">Submit</button>
+                        </form>
+                    </form>
+                    
+                </article>
+            </section>
+        </main>
+
+        <footer id="footer-con">
+            <div class="grid-con">
+                <img src="assets/RLREADERS LIBRARY.png" alt="image" id="footer-logo">
+                </div>
+                <article id="footer-newsletter">
+                    <h3> News letter sign up</h3>
+                    <textarea name="newsletter-signup" id="newsletter-signup" cols="40" rows="1"> EMAIL</textarea>
+                </article>
+                <button id="footer-newsletter2"> SUBMIT
+                </button>
+            </div>
+        </footer>
+
+    </div>
+</body>
+</html>
